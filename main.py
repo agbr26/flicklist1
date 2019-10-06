@@ -28,9 +28,9 @@ def index():
 
 def get_random_movie():
     # TODO: make a list with at least 5 movie titles
-    List = ["Legally Blonde", "Horrible Bosses", "Shaun of the Dead", "Rat Race", "Clueless"]
+    movies_list = ["Legally Blonde", "Horrible Bosses", "Shaun of the Dead", "Rat Race", "Clueless"]
     # TODO: randomly choose one of the movies, and return it
-    return random.choice(List)
+    return random.choice(movies_list)
   
 
 app.run()
