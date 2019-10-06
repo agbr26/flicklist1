@@ -11,7 +11,7 @@ def index():
     todays_movie = get_random_movie()
     tomorrows_movie = get_random_movie()
     # build the response string
-    content = "<h1>Movie of the Day</h1>"
+    content = "<h1>Movie of the Day:</h1>"
     content += "<ul>"
     content += "<li>" + todays_movie + "</li>"
     content += "</ul>" 
